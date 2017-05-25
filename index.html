@@ -1,100 +1,829 @@
-<html lang="en">
-    <head>
-        <meta name="description" content="Wiess College at Rice University (TFW) - The Best College at Rice University">
-        <meta name="keywords" content="team, wiess, fucking, fuckin, family, college, best, rice, university, residential, richest, happiest, fun, happy, rich, wiessman, wiessmen, weiss, ubangee, freshman">
-        <!-- Do not remove or the site will crash :) -->
-        <meta name="author" content="Jordan Poles">
-        <!-- Do not remove or the site will crash :) -->
-        <meta property="og:title" content="Wiess College at Rice University"/>
-        <meta property="og:site_name" content="Wiess College - TFW"/>
-        <meta property="og:image" content="http://teamwiess.com/res/welcome_wiess.jpg"/>
-        <title>Wiess College</title>
-        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-        <link href='http://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/nav.css" rel="stylesheet">
-        <link href="css/main.css" rel="stylesheet">
-        <script src="js/jquery.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/nav.js"></script>
-        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-        <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
-    </head>
-    <body style="background-color: #ffcc33">
-        <!-- Google Tag Manager -->
-        <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KG5WWF"
-                          height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-                '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','GTM-KG5WWF');</script>
-        <!-- End Google Tag Manager -->
-        <div class="navbar-wrapper">
-            <div class="container">
-                <nav class="navbar navbar-inverse navbar-fixed-top">
-                    <div class="container-fluid">
-                        <div class="navbar-header">
-                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                              <div style="display: inline-block; color: #fff; font-weight: bold; margin-right: 4px;">Navigation</div>
-                              <div style="display: inline-block; margin-bottom: -2px;">
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                              </div>
-                            </button>
-                            <a href="#" class="navbar-brand"><img src="res/wiessshield.png" height="40px" id="navlogo"/></a>
-                        </div>
-                        <div id="navbar" class="navbar-collapse collapse">
-                            <ul class="nav navbar-nav">
-                                <li id="home"><a href="#">Home</a></li>
-                                <!-- <li><a href="#!about">About</a></li> -->
-                                <li class="dropdown">
-                                    <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About<span class="caret"></span></a>
-                                    <ul class="dropdown-menu" role="menu">
-                                        <li><a href="#!about">Wiess 101</a></li>
-                                        <li><a href="/assets/WiessBylaws.pdf" target="_blank">Wiess Bylaws</a></li>
-                                        <li><a href="/assets/constitution3-29-2017.pdf" target="_blank">Wiess Constitution</a></li>
-                                        <li><a href="/assets/WiessCollegeRules2012.pdf" target="_blank">Wiess College Rules</a></li>
-                                        <li><a href="/assets/wiess-college-housing-rules-2_6_2013.pdf" target="_blank">Housing Agreement</a></li>
-                                        <li><a href="https://www.facebook.com/groups/365977380082937/" target="_blank">TFW Facebook Group</a></li>
-                                    </ul>
-                                </li>
-                                <!-- <li class="dropdown">
-                                    <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">New Students<span class="caret"></span></a>
-                                    <ul class="dropdown-menu" role="menu">
-                                        <li><a href="#!newstudents">Resources</a></li>
-                                        <li><a href="#!newstudents">Your New Home</a></li>
-                                        <li><a href="#!newstudents">Your New Room</a></li>
-                                        <li><a href="#!newstudents">Getting Involved</a></li>
-                                    </ul>
-                                </li> -->
-                                <li><a href="#!newstudents">New Students</a></li>
-                                <li><a href="#!ateam">A-Team</a></li>
-                                <li class="dropdown">
-                                    <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Leadership<span class="caret"></span></a>
-                                    <ul class="dropdown-menu" role="menu">
-                                        <li><a href="#!cabinet">Cabinet</a></li>
-                                        <li><a href="#!court">Court</a></li>
-                                        <li><a href="#!reps">Representatives</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#!resources">Resources</a></li>
-                                <li><a href="#!calendar">Calendar</a></li>
-                                <li><a href="#!rasearch">RA Search</a></li>
-                                <li><a href="http://www.teamwiess.com/60/">60th Anniversary</a></li>
+<!DOCTYPE html>
+<!--
+	Description: HTML/CSS
+	Author: Kunal Shah
+	Designed & Coded by Kunal Shah
+  Created May 12, 2017
+
+-->
+
+<html>
+ 	<head>
+		<title>Wiess College</title>
+		<meta charset=utf-8 >
+		<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+    <meta name="description" content="Wiess College at Rice University (TFW) - The Best College at Rice University">
+    <meta name="keywords" content="team, wiess, family, college, best, rice, university, residential, happiest, fun, happy, wiessman, wiessmen, weiss, ubangee, freshman">
+    <meta property="og:title" content="Wiess College at Rice University"/>
+    <meta property="og:site_name" content="Wiess College - TFW"/>
+    <meta property="og:image" content="http://teamwiess.com/res/welcome_wiess.jpg"/>
+		<meta name="robots" content="index, follow" >
+		<meta name="author" content="Kunal Shah">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="theme-color" content="#2a2b2f">
+
+		<!-- FAVICONS -->
+    <link rel="shortcut icon" href="images/favicon/favicon.png">
+    <!-- <link rel="apple-touch-icon" href="images/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-touch-icon-114x114.png">
+    <link rel="icon" sizes="192x192" href="images/favicon/icon-192x192.png"> -->
+
+<!-- CSS -->
+    <!--  GOOGLE FONT -->
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,200' rel='stylesheet' type='text/css'>
+
+    <!-- REVOSLIDER CSS SETTINGS -->
+
+    <!-- REVOLUTION STYLE SHEETS -->
+    <link href="revo-slider/css/settings-custom.css" rel="stylesheet" type="text/css">
+
+    <!--  BOOTSTRAP -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- ICONS ELEGANT FONT & FONT AWESOME & LINEA ICONS  -->
+		<link rel="stylesheet" href="css/icons-fonts.css" >
+
+    <!--  CSS THEME -->
+		<link rel="stylesheet" href="css/style.css" >
+
+    <!-- ANIMATE -->
+		<link rel='stylesheet' href="css/animate.min.css">
+
+    <!-- IE Warning CSS -->
+		<!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="css/ie-warning.css" ><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="css/ie8-fix.css" ><![endif]-->
+
+    <!-- Magnific popup, Owl Carousel Assets in style.css -->
+
+<!-- CSS end -->
+
+<!-- JS begin some js files in bottom of file-->
+
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+	</head>
+	<body class="font-raleway">
+
+		<!-- LOADER -->
+		<div id="loader-overflow">
+      <div id="loader3" class="loader-cont">Please enable JS</div>
+    </div>
+
+		<div id="wrap" class="boxed ">
+			<div class="grey-bg"> <!-- Grey BG  -->
+
+				<!--[if lte IE 8]>
+				<div id="ie-container">
+					<div id="ie-cont-close">
+						<a href='#' onclick='javascript&#058;this.parentNode.parentNode.style.display="none"; return false;'><img src='images/ie-warn/ie-warning-close.jpg' style='border: none;' alt='Close'></a>
+					</div>
+					<div id="ie-cont-content" >
+						<div id="ie-cont-warning">
+							<img src='images/ie-warn/ie-warning.jpg' alt='Warning!'>
+						</div>
+						<div id="ie-cont-text" >
+							<div id="ie-text-bold">
+								You are using an outdated browser
+							</div>
+							<div id="ie-text">
+								For a better experience using this site, please upgrade to a modern web browser.
+							</div>
+						</div>
+						<div id="ie-cont-brows" >
+							<a href='http://www.firefox.com' target='_blank'><img src='images/ie-warn/ie-warning-firefox.jpg' alt='Download Firefox'></a>
+							<a href='http://www.opera.com/download/' target='_blank'><img src='images/ie-warn/ie-warning-opera.jpg' alt='Download Opera'></a>
+							<a href='http://www.apple.com/safari/download/' target='_blank'><img src='images/ie-warn/ie-warning-safari.jpg' alt='Download Safari'></a>
+							<a href='http://www.google.com/chrome' target='_blank'><img src='images/ie-warn/ie-warning-chrome.jpg' alt='Download Google Chrome'></a>
+						</div>
+					</div>
+				</div>
+				<![endif]-->
+
+				<!-- HEADER 1 FONT WHITE TRANSPARENT -->
+        <div class="header-black-bg"></div> <!-- NEED FOR TRANSPARENT HEADER ON MOBILE -->
+				<header id="nav" class="header header-1 header-black">
+				  <div class="header-wrapper">
+					<div class="container-m-30 clearfix">
+					  <div class="logo-row">
+
+						<!-- LOGO -->
+						<div class="logo-container-2">
+                <div class="logo-2">
+                  <a href="index.html" class="clearfix">
+                    <img src="images/logo.png" class="logo-img" alt="Logo">
+                  </a>
+                </div>
+              </div>
+						<!-- BUTTON -->
+						<div class="menu-btn-respons-container">
+							<button id="menu-btn" type="button" class="navbar-toggle btn-navbar collapsed" data-toggle="collapse" data-target="#main-menu .navbar-collapse">
+								<span aria-hidden="true" class="icon_menu hamb-mob-icon"></span>
+							</button>
+						</div>
+					 </div>
+					</div>
+
+					<!-- MAIN MENU CONTAINER -->
+					<div class="main-menu-container">
+
+						  <div class="container-m-30 clearfix">
+
+								<!-- MAIN MENU -->
+								<div id="main-menu" class="font-raleway">
+								  <div class="navbar navbar-default" role="navigation">
+
+                    <!-- MAIN MENU LIST -->
+                    <nav class="collapse collapsing navbar-collapse right-1024">
+                      <ul class="nav navbar-nav">
+
+
+
+                        <!-- MENU ITEM -->
+                        <li class="parent">
+                          <a href="#" class="open-sub"><div class="main-menu-title font-16">About</div></a>
+                          <ul class="sub">
+                          <li data-container="body" data-toggle="popover" data-placement="bottom" data-content="Sorry! This part of the website is still under construction." data-original-title="" title=""><a href="#">Wiess 101</a></li>
+                          <!-- <li><a href="loaders.html">Calendar</a></li> -->
+                          <li class="parent">
+                            <a href="#" class="open-sub">Governing Documents</a>
+                            <ul class="sub">
+                              <li><a href="index7.html">Bylaws</a></li>
+                              <li><a href="one-page-index8.html">Constitution</a></li>
+                              <li><a href="index.html">College Rules</a></li>
+                              <li><a href="index-blog2.html">Housing Agreement</a></li>
                             </ul>
-                        </div>
-                    </div>
-                </nav>
+                          </li>
+                          </ul>
+                        </li>
+
+                        <!-- MEGA MENU ITEM -->
+                        <li class="parent megamenu">
+                          <a href="#" class="open-sub"><div class="main-menu-title font-16">Resources</div></a>
+                          <ul class="sub">
+                          <li class="clearfix">
+
+                            <div class="menu-sub-container">
+
+                              <div class="box col-md-3 ">
+                                <ul>
+                                  <li><a href="typography.html#highlights"><div class="icon icon-ecommerce-sale"></div>Room Reservations</a></li>
+                                  <li><a href="shortcodes.html#flickr-link"><div class="icon icon-basic-webpage-multiple"></div>Cabinet Agenda Items</a></li>
+                                  <li><a href="typography.html#testimonials"><div class="icon icon-arrows-keyboard-cmd-29"></div>Cabinet Budget Request</a></li>
+                                </ul>
+                              </div>
+
+                              <div class="box col-md-3">
+                                <ul>
+                                  <li><a href="shortcodes.html#tabs"><div class="icon icon-basic-folder"></div>Party Registration</a></li>
+                                  <li><a href="shortcodes.html#media"><div class="icon icon-music-play-button"></div>Party Rentals</a></li>
+                                  <li><a href="icons.html"><div class="icon icon-basic-lightbulb"></div>Work Order Form</a></li>
+                                  <li><a href="shortcodes.html#counters-charts"><div class="icon icon-ecommerce-graph2"></div>Wiess Budget</a></li>
+                                </ul>
+                              </div>
+
+                              <div class="box col-md-3">
+                                <ul>
+                                  <li><a href="shortcodes.html#toggles"><div class="icon icon-arrows-hamburger1"></div>Presidential Feedback</a></li>
+                                  <li><a href="shortcodes.html#modals"><div class="icon icon-basic-webpage-img-txt"></div>SA Senator Suggestions</a></li>
+                                  <li><a href="typography.html#dropcaps"><div class="icon icon-software-font-smallcaps"></div>Wiess Associates</a></li>
+                                </ul>
+                              </div>
+
+                              <div class="box col-md-3 ">
+                                <ul>
+                                  <li><a href="animations.html"><div class="icon icon-basic-mixer2"></div>Board Games Checkout</a></li>
+                                  <li><a href="shortcodes.html#labels"><div class="icon icon-ecommerce-diamond"></div>Logos and Graphics</a></li>
+                                  <li><a href="typography.html#blockquotes"><div class="icon icon-basic-message-txt"></div>Snap Cup</a></li>
+                                  <!-- <li><a href="shortcodes.html#twitter-link"><div class="icon icon-basic-world"></div>TFW Facebook Group</a></li> -->
+                                </ul>
+                              </div>
+
+                            </div>
+
+                          </li>
+                          </ul>
+                        </li>
+
+                        <!-- MENU ITEM -->
+                        <li class="parent">
+                          <a href="#" class="open-sub"><div class="main-menu-title font-16">People</div></a>
+                          <ul class="sub">
+                            <li><a href="index-portfolio.html">A-Team</a></li>
+                            <li><a href="index-portfolio.html">Cabinet</a></li>
+                            <li><a href="#">Court</a></li>
+                            <li><a href="#">Reps</a></li>
+                          </ul>
+                        </li>
+
+                        <!-- MENU ITEM -->
+                        <!-- <li class="parent">
+                          <a href="#" class="open-sub"><div class="main-menu-title">New Students</div></a>
+                          <ul class="sub">
+                            <li><a href="static-image.html">O-Week Videos</a></li>
+                            <li><a href="static-parallax.html">O-Week Book</a></li>
+                            <li><a href="static-text-rotator.html">Owlmanac</a></li>
+                            <li><a href="static-video.html">O-Week Schedule</a></li>
+                            <li><a href="static-video.html">Checklist</a></li>
+                            <li><a href="static-video.html">FAQ</a></li>
+                            <li><a href="static-video.html">Residential College System</a></li>
+                            <li><a href="static-video.html">Wiess Dorm Layout</a></li>
+                          </ul>
+                        </li> -->
+
+
+
+                        <!-- MENU ITEM -->
+                        <li id="menu-contact-info-big" class="parent megamenu">
+                          <a href="#" class="open-sub"><div class="main-menu-title font-16">Contact</div></a>
+                          <ul class="sub">
+                            <li class="clearfix" >
+                              <div class="menu-sub-container">
+
+                                <div class="box col-md-3 menu-demo-info closed">
+                                  <h5 class="title open-sub">Contact</h5>
+                                  <ul>
+                                  <li><a href="mailto:wiess@rice.edu">College Coordinator</a></li>
+                                  <li><a href="mailto:wiessmasters@rice.edu">Magisters</a></li>
+                                  <li><a href="mailto:ks45@rice.edu">Webmaster</a></li>
+                                  </ul>
+                                </div>
+
+                                <div class="col-md-3 menu-contact-info">
+                                  <ul class="contact-list">
+                                    <li class="contact-loc clearfix">
+                                      <div class="loc-icon-container">
+                                        <div class="icon icon-basic-map main-menu-contact-icon"></div>
+                                      </div>
+                                      <div class="menu-contact-text-container">6340 Main St. Houston, TX 77005</div>
+                                    </li>
+                                    <li class="contact-phone clearfix">
+                                      <div class="loc-icon-container">
+                                        <div class="icon icon-basic-smartphone main-menu-contact-icon"></div>
+                                      </div>
+                                      <div class="menu-contact-text-container">1-713-384-5743</div>
+                                    </li>
+                                    <li class="contact-mail clearfix" >
+                                      <div class="loc-icon-container">
+                                        <div class="icon icon-basic-mail main-menu-contact-icon"></div>
+                                      </div>
+                                      <div class="menu-contact-text-container">
+                                        <a class="a-mail" href="mailto:wiess@rice.edu">wiess@rice.edu</a>
+                                      </div>
+                                    </li>
+                                  </ul>
+                                </div>
+
+                                <div class="col-md-6 menu-map-container hide-max-960 ">
+                                  <!-- Google Maps -->
+                                  <div class="google-map-container">
+                                    <!-- <img src="images/map-line.png" alt="alt"> -->
+                                    <iframe
+                                      width="100%"
+                                      height="100%"
+                                      frameborder="0" style="border:0"
+                                      src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBMobM78wN5OAzFrYLy6vK0od4js9FkjZo&q=Wiess+College,Houston+TX">
+                                    </iframe>
+                                  </div>
+                                  <!-- Google Maps / End -->
+                                </div>
+
+                              </div>
+                            </li>
+                          </ul>
+                        </li>
+
+                      </ul>
+
+                    </nav>
+
+								  </div>
+								</div>
+								<!-- END main-menu -->
+
+						  </div>
+						  <!-- END container-m-30 -->
+
+					</div>
+					<!-- END main-menu-container -->
+
+					<!-- SEARCH READ DOCUMENTATION -->
+					<ul class="cd-header-buttons">
+						<li><a class="cd-search-trigger" href="#cd-search"><span></span></a></li>
+					</ul> <!-- cd-header-buttons -->
+					<div id="cd-search" class="cd-search">
+						<form class="form-search" id="searchForm" action="page-search-results.html" method="get">
+							<input type="text" value="" name="q" id="q" placeholder="Search...">
+						</form>
+					</div>
+
+				  </div>
+				  <!-- END header-wrapper -->
+				</header>
+
+        <!-- SLIDER Revo Hero 1 FONT MONTSERRAT -->
+        <div class="relative">
+            <div class="rev_slider_wrapper fullscreen-container" id="rev_slider_280_1_wrapper" style="background-color:#fff;padding:0px;">
+                <!-- START REVOLUTION SLIDER 5.1.4 fullscreen mode -->
+                <div class="rev_slider fullscreenbanner" data-version="5.1.4" id="rev_slider_280_1" style="display:none;">
+                    <ul>
+                        <!-- SLIDE -->
+                        <li data-description="" data-easein="Power2.easeInOut" data-easeout="default" data-index="rs-898" data-masterspeed="1500" data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off" data-slotamount="default" data-title="Slide" data-transition="fade">
+                            <!-- MAIN IMAGE -->
+                            <img alt="img" class="rev-slidebg" data-bgparallax="12" data-bgposition="center center" data-duration="30000" data-ease="Linear.easeNone" data-no-retina="" src="http://www.teamwiess.com/acapics/family-med.jpg">
+
+                            <!-- LAYER NR. 1 -->
+                            <div class="tp-caption FullScreenMenu-Title tp-resizeme" id="slide-1945-layer-1"
+                            data-x="['left','left','left','left']"
+                            data-hoffset="['100','50','50','40']"
+                            data-y="['bottom','bottom','bottom','bottom']"
+                            data-voffset="['130','130','130','120']"
+                            data-fontsize="['65','50','50','40']"
+                            data-lineheight="['70','55','55','45']"
+                            data-width="['none','none','480','360']"
+                            data-height="none"
+                            data-whitespace="['nowrap','nowrap','normal','normal']"
+                            data-transform_idle="o:1;"
+                            data-transform_in="y:bottom;s:1500;e:Power4.easeOut;"
+                            data-transform_out="y:-50px;opacity:0;s:500;e:Power2.easeInOut;"
+                            data-start="100"
+                            data-splitin="none"
+                            data-splitout="none"
+                            data-basealign="slide"
+                            data-responsive_offset="on"
+                            style="z-index: 6; white-space: nowrap; ccolor:#777; background-color: rgba(0, 0, 0, .5)">WELCOME TO <span style="color: white;">WIESS COLLEGE</span> </div>
+
+                        </li>
+                    </ul>
+                    <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
+                </div>
             </div>
+            <!-- END REVOLUTION SLIDER -->
+
+          <!-- SCROLL ICON -->
+          <div class="local-scroll-cont font-white">
+            <a href="#about" class="scroll-down smooth-scroll">
+              <div class="icon icon-arrows-down"></div>
+            </a>
+          </div>
+
         </div>
-        <div id="main" class="container-fluid"></div>
-        <!-- Do not remove or the site will crash :) -->
-        <div id="footer" class="footer navbar-static-bottom" style="margin-top: 20px; text-align: center">Created by <a href="http://jpoles1.github.io" target="_blank" style="color: white; text-decoration: underline;">Jordan Poles</a> (Wiess '17) and Kunal Shah (Wiess '18)</div>
-        <!-- Do not remove or the site will crash :) -->
-    </body>
+
+				<!-- FEATURES 15 WE ARE CREATIVE -->
+				<div id="about" class="page-section">
+					<div class="container fes1-cont">
+            <div class="row">
+
+              <!-- HEADINGS  -->
+              <div id="announcements" class="bs-docs-section mb-50">
+                  <div class="title-fs-45-wide font-raleway font-light font-black">
+                    Announcements
+                  </div>
+                  <hr>
+                  <h4>Welcome to the new Wiess website!</h4>
+                  <p>This site is still under construction and you may run into broken links or pages for the nnxt . I'll be rolling out smaller changes to the site over the next couple weeks,
+                     but you can expect the larger facets of the site to remain consistant. Here's what you need to know:
+                   </p>
+                  <ul>
+                    <li>You can find the resources at the top nav bar.
+                    <li>Soon to be included in #resources are a link to submit new resources and annoucements.
+                    <li>Please keep in mind that any information posted on this website is publically available, unlike listservs or facebook posts.
+                    <li>Soon to be included in #resources are a link to submit new resources and annoucements.
+                  <ul>
+              </div>
+
+              <dl class="toggle text-center">
+                <dt>
+                  <a href="#">View All Announcements</a>
+                </dt>
+                <dd>No other annoucements have been posted. You can submit an annoucement using the link at the bottom of the website.</dd>
+              </dl>
+            </div>
+					</div>
+				</div>
+
+				<!-- FEATURES 19 APP GIF FONT RALEWAY -->
+        <div class="page-section bg-gray-light">
+        	<div class="container">
+        		<div class="row">
+        			<div class="col-md-6 text-center">
+                <img class="mt-40" src="60/Wiess60-crest-with-date-small.png" alt="img">
+              </div>
+        			<div class="col-md-6">
+                <div class="fes2-main-text-cont">
+                  <div class="fes2-title-45 font-raleway font-light">
+                    60th Anniversary<br>Celebration
+                  </div>
+                  <div class="fes2-text-cont">The Wiess College 60th Anniversary Celebration is approaching fast. Don't forget to mark your calendars for November 10-11, 2017!</div>
+                  <div class="fes12-btn-cont mt-30">
+                  	<a class="button medium thin rounded purple btn-4 btn-4cc" href="#"><span class="button-text-anim">Visit The Website</span><span aria-hidden="true" class="button-icon-anim arrow_right"></span></a>
+                  </div>
+                </div>
+              </div>
+        		</div>
+        	</div>
+        </div>
+
+
+        <!-- PORTFOLIO 3 (2 COLS, MASONRY) FONT RALEWAY -->
+        <div class="page-section" id="upcoming">
+          <div class="relative">
+
+            <!-- ITEMS GRID -->
+            <ul class="port-grid port-grid-2 masonry clearfix" id="items-grid">
+
+              <!-- Item -->
+              <li class="port-item mix">
+                <div class="port-text-cont relative">
+                  <img class="port-main-img" src="acapics/bg-black.png" alt="img" >
+										<div class="block-center-xy">
+										  <div class="title-fs-45-wide font-raleway font-light font-white">
+										  	Upcoming
+										  </div>
+										</div>
+								</div>
+              </li>
+
+              <!-- Item big -->
+              <li class="port-item mix photography">
+                <a href="portfolio-single1.html">
+                  <div class="port-img-overlay">
+                    <img class="port-main-img" src="60/Wiess60-banner.png" alt="img" >
+                  </div>
+                  <div class="port-overlay-cont">
+                    <div class="port-title-cont2">
+                      <h3 class="font-26 font-raleway">Wiess Turns 60</h3>
+                      <span>Visit the 60th Anniversary Celebration Website</span>
+                    </div>
+                  </div>
+                </a>
+              </li>
+
+              <!-- Item big -->
+              <li class="port-item mix photography">
+                <a href="portfolio-single1.html">
+                  <div class="port-img-overlay">
+                    <img class="port-main-img" src="acapics/oweek.jpg" alt="img" >
+                  </div>
+                  <div class="port-overlay-cont">
+                    <div class="port-title-cont2">
+                      <h3 class="font-26 font-raleway">Wiess O-Week</h3>
+                      <span>Coming soon: New student checklist, FAQ, dorm layout, and more.</span>
+                    </div>
+                  </div>
+                </a>
+              </li>
+
+              <!-- Item big -->
+              <li class="port-item mix photography" data-container="body" data-toggle="popover" data-placement="top" data-content="Thanks for your interest in contributing to summer projects at Wiess! Please write to Kunal Shah at ks45@rice.edu for more information on the various project opportunities available!" data-original-title="" title="">
+                <!-- <a href=""> -->
+                  <div class="port-img-overlay">
+                    <img class="port-main-img" src="acapics/pink.jpg" alt="img" >
+                  </div>
+                  <div class="port-overlay-cont">
+                    <div class="port-title-cont2">
+                      <h3 class="font-26 font-raleway">Summer Projects</h3>
+                      <span>Graphic Design, event planning, &amp; more.</span>
+                    </div>
+                  </div>
+                <!-- </a> -->
+              </li>
+
+              <!-- Item -->
+              <li class="port-item mix development">
+                <a href="portfolio-single1.html">
+                  <div class="port-img-overlay"><img class="port-main-img" src="acapics/darkhall.jpg" alt="img" >
+                  </div>
+                  <div class="port-overlay-cont">
+                    <div class="port-title-cont2">
+                      <h3 class="font-26 font-raleway">Fourth Floor RA</h3>
+                      <span>The new RA is to be annouced very soon!</span>
+                    </div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- VIEW MORE PROJECTS  -->
+        <div class="port-view-more-cont">
+          <a class="port-view-more font-raleway bg-gray-light" href="portfolio-masonry-4col.html">View All</a>
+        </div>
+        <!-- END PORTFOLIO SECTION -->
+
+        <!-- TESTIMONIALS 4 & CLIENTS 2 -->
+        <!-- <div class="page-section p-130-cont">
+        	<div class="container">
+        		<div class="row">
+
+        			<div class="col-md-12">
+                <div class="mb-70">
+								  <h2 class="section-title2 font-raleway text-center p-0">Wiess Events Calendar</h2>
+								</div>
+							</div>
+
+        		</div>
+          </div>
+        </div> -->
+
+        <!-- FEATURES 14 TABS FONT RALEWAY -->
+        <div class="page-section bg-b-p-grad" id="governing-documents">
+          <div class="container">
+
+            <!-- TABS NAV -->
+            <div class="row">
+            	<div class="col-md-12">
+
+                <ul class="fes14-nav-tabs nav nav-tabs bootstrap-tabs">
+                  <li class="active"><a href="#web-design" class="fes14-nav-a" data-toggle="tab"><div class="tab-nav-icon icon icon-basic-laptop font-white"></div><div class="tab-nav-text font-raleway font-white">Housing Agreement</div></a></li>
+                  <li><a href="#graphic-design"  class="fes14-nav-a" data-toggle="tab"><div class="tab-nav-icon icon icon-basic-sheet-pen font-white"></div><div class="tab-nav-text font-raleway font-white">Bylaws</div></a></li>
+                  <li><a href="#branding-tab"  class="fes14-nav-a" data-toggle="tab"><div class="tab-nav-icon icon icon-ecommerce-diamond font-white"></div><div class="tab-nav-text font-raleway font-white">Constitution</div></a></li>
+                  <li><a href="#development-tab"  class="fes14-nav-a" data-toggle="tab"><div class="tab-nav-icon icon icon-basic-archive-full font-white"></div><div class="tab-nav-text font-raleway font-white">College Rules</div></a></li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- TABS CONTENT & IMAGES -->
+            <div class="row">
+
+              <!-- TABS CONTENT -->
+              <div class="col-md-6">
+                <div class="fes14-tab-content tab-content">
+
+                  <!-- TAB 1 -->
+                  <div class="tab-pane fade in active" id="web-design">
+                    <h1 class="fes14-tab-title font-raleway font-white"><strong>Housing Agreement</strong></h1>
+                    <h2 class="fes14-tab-sub-title font-raleway font-white"><strong>template for your business</strong></h2>
+                    <p class="fes14-tab-text mb-60 font-white">
+                      Nulla sed vehicula leo. Nam volutpat dapibus nisi sed ultrices. Proin ullamcorper eget ex a cursus. In sed turpis at orci laoreet ultrices et vitae urna.
+                    </p>
+                    <div class="fes12-btn-cont mt-30">
+                      <a class="button medium thin rounded white" href="#">Download</a>
+                    </div>
+                  </div>
+
+
+                  <!-- TAB 3 -->
+                  <div class="tab-pane fade" id="graphic-design">
+                    <h1 class="fes14-tab-title font-raleway font-white"><strong>Bylaws</strong></h1>
+                    <h2 class="fes14-tab-sub-title font-raleway font-white"><strong>process of visual communication</strong></h2>
+                    <p class="fes14-tab-text mb-60 font-white">
+                      Nulla sed vehicula leo. Nam volutpat dapibus nisi sed ultrices. Proin ullamcorper eget ex a cursus. In sed turpis at orci laoreet ultrices et vitae urna.
+                    </p>
+                    <div class="fes12-btn-cont mt-30">
+                      <a class="button medium thin rounded white" href="#">Download</a>
+                    </div>
+                  </div>
+
+                  <!-- TAB 4 -->
+                  <div class="tab-pane fade" id="branding-tab">
+                    <h1 class="fes14-tab-title font-raleway font-white"><strong>Constitution</strong></h1>
+                    <h2 class="fes14-tab-sub-title font-raleway font-white"><strong>creating and launching brands</strong></h2>
+                    <p class="fes14-tab-text mb-60 font-white">
+                      Nulla sed vehicula leo. Nam volutpat dapibus nisi sed ultrices. Proin ullamcorper eget ex a cursus. In sed turpis at orci laoreet ultrices et vitae urna.
+                    </p>
+                    <div class="fes12-btn-cont mt-30">
+                      <a class="button medium thin rounded white" href="#">Download</a>
+                    </div>
+                  </div>
+
+                  <!-- TAB 5 -->
+                  <div class="tab-pane fade" id="development-tab">
+                    <h1 class="fes14-tab-title font-raleway font-white"><strong>College Rules</strong></h1>
+                    <h2 class="fes14-tab-sub-title font-raleway font-white"><strong>apps & web sites development</strong></h2>
+                    <p class="fes14-tab-text mb-60 font-white">
+                      Nulla sed vehicula leo. Nam volutpat dapibus nisi sed ultrices. Proin ullamcorper eget ex a cursus. In sed turpis at orci laoreet ultrices et vitae urna.
+                    </p>
+                    <div class="fes12-btn-cont mt-30">
+                      <a class="button medium thin rounded white" href="#">Download</a>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+              <!-- IMAGES -->
+              <!-- <div class="col-md-6 fes9-img-cont clearfix">
+                <div class="fes9-img-center clearfix">
+                  <img src="documents.png" alt="img" class=" wow fadeInUp" data-wow-delay="150ms" data-wow-duration="1s">
+                  <img src="documents.png" alt="img" class=" wow fadeInUp" data-wow-delay="450ms" data-wow-duration="1s">
+                </div>
+              </div> -->
+
+            </div>
+          </div>
+        </div>
+
+        <!-- SLOGAN 1 ADD BILL WILSON? -->
+        <!-- <div class="p-140-cont ">
+        	<div class="container">
+        		<div class="row">
+        			<div class="col-md-7 col-sm-12"><h3 class="sl1-text font-light font-raleway">The only way to do great work
+        		is to love what you do</h3></div>
+        			<div class="col-md-offset-1 col-md-4 col-sm-offset-7 col-sm-5 col-xs-offset-5 col-xs-7 mt-40 mb-20">
+        	      <img src="images/content/signature.png" alt="img">
+        	    </div>
+        		</div>
+        	</div>
+        </div> -->
+
+        <!-- FOOTER 4 BLACK FONT RALEWAY -->
+        <footer id="footer4" class="page-section pt-95 pb-50 footer2-black">
+          <div class="container">
+            <div class="row">
+
+              <div class="col-md-3 col-sm-3 widget">
+                <div class="logo-footer-cont">
+                  <a href="index.html">
+                    <img class="logo-footer" src="images/logo.png" alt="logo">
+                  </a>
+                </div>
+                <div class="footer2-text-cont">
+                  <address>
+                    Wiess College<br>
+                    6340 Main St.<br>
+                    Houston&nbsp;,TX 77005
+                  </address>
+                </div>
+                <div class="footer2-text-cont">
+                  1-713-384-5743<br>
+                  <a class="a-text" href="mailto:wiess@rice.edu">wiess@rice.edu</a>
+                </div>
+                <div class="footer2-text-cont a-text-main-cont">
+                  <a class="popup-gmaps mfp-plugin font-raleway" href="https://maps.google.com/maps?q=Wiess+College,Houston+TX">Open Map</a>
+                </div>
+              </div>
+
+              <div class="col-md-3 col-sm-3 widget">
+                <h4 class="font-raleway">Navigate</h4>
+                <ul class="links-list a-text-cont a-text-main-cont font-raleway">
+                  <li><a href="#top">Home</a></li>
+                  <li><a href="#announcements">Announcements</a></li>
+                  <li><a href="#upcoming">Upcoming</a></li>
+                  <li><a href="#governing-documents">Governing Documents</a></li>
+                  <li><a href="https://www.facebook.com/groups/teamwiess/">Wiess Facebook Group</a></li>
+                </ul>
+              </div>
+
+              <div class="col-md-3 col-sm-3 widget">
+                <h4 class="font-raleway">Quick Links</h4>
+                <ul class="links-list a-text-cont font-raleway" >
+                  <li><a href="people.html">People</a></li>
+                  <li><a href="60.html">Wiess Turns 60</a></li>
+                  <li data-container="body" data-toggle="popover" data-placement="top" data-content="Sorry! This part of the website is still under construction." data-original-title="" title=""><a href="#" onclick="return false;">Website Update Form</a></li>
+                  <li data-container="body" data-toggle="popover" data-placement="top" data-content="Sorry! This part of the website is still under construction." data-original-title="" title=""><a href="#" onclick="return false;">Annoucement Submission</a></li>
+                  <li data-container="body" data-toggle="popover" data-placement="top" data-content="Sorry! This part of the website is still under construction." data-original-title="" title=""><a href="#" onclick="return false;">Report a Bug</a></li>
+                </ul>
+              </div>
+
+              <div class="col-md-3 col-sm-3 widget">
+                <h4 class="font-raleway">Alumni Listserv</h4>
+
+                <!-- NEWS LETTER 2 -->
+                <div class="relative">
+                  <div id="mc_embed_signup" class="nl-form-container clearfix">
+                    <!-- EDIT THIS ACTION URL (add "post-json?u" instead of "post?u" and appended "&amp;c=?" to the end of this URL) -->
+                    <!-- <form action="http://abcgomel.us9.list-manage.com/subscribe/post-json?u=ba37086d08bdc9f56f3592af0&amp;id=e38247f7cc&amp;c=?" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="newsletterform2 validate" target="_blank" novalidate>    -->
+                      <input type="email" value="" name="EMAIL" class="email nl2-email-input font-raleway" id="mce-EMAIL" placeholder="Email address" required>
+                      <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                      <div style="position: absolute; left: -5000px;"><input type="text" name="b_ba37086d08bdc9f56f3592af0_e38247f7cc" tabindex="-1" value=""></div>
+
+                      <button id="mc-embedded-subscribe" class="nl2-btn" type="submit" name="subscribe">
+                        <span class="icon icon-arrows-slim-right"></span>
+                      </button>
+
+                    </form>
+                    <div id="notification_container"  ></div>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+
+            <!-- SUB FOOTER -->
+            <div class="footer2-copy-cont clearfix">
+              <!-- Social Links -->
+              <div class="footer2-soc-a right">
+                <a href="https://www.facebook.com/groups/teamwiess/" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+              </div>
+
+              <!-- Copyright -->
+              <div class="left">
+                <a class="footer2-copy" href="" target="_blank">&copy; Wiess College</a>
+              </div>
+
+            </div>
+
+          </div>
+        </footer>
+
+				<!-- BACK TO TOP -->
+				<p id="back-top">
+          <a href="#top" title="Back to Top"><span class="icon icon-arrows-up"></span></a>
+        </p>
+
+			</div><!-- End BG -->
+		</div><!-- End wrap -->
+
+<!-- JS begin -->
+
+		<!-- jQuery  -->
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+		<!-- MAGNIFIC POPUP -->
+		<script src='js/jquery.magnific-popup.min.js'></script>
+
+    <!-- PORTFOLIO SCRIPTS -->
+    <script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
+    <script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
+    <script type="text/javascript" src="js/masonry.pkgd.min.js"></script>
+
+
+    <!-- APPEAR -->
+    <script type="text/javascript" src="js/jquery.appear.js"></script>
+
+    <!-- OWL CAROUSEL -->
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+
+    <!-- MAIN SCRIPT -->
+		<script src="js/main.js"></script>
+
+		<!-- REVOSLIDER SCRIPTS  -->
+    <script src="revo-slider/js/jquery.themepunch.tools.min.js" type="text/javascript">
+    </script>
+    <script src="revo-slider/js/jquery.themepunch.revolution.min.js" type="text/javascript">
+    </script>
+
+    <!-- SLIDER REVOLUTION 5.0 EXTENSIONS
+      (Load Extensions only on Local File Systems !
+      The following part can be removed on Server for On Demand Loading) -->
+    <script src="revo-slider/js/extensions/revolution.extension.actions.min.js" type="text/javascript"></script>
+    <script src="revo-slider/js/extensions/revolution.extension.carousel.min.js" type="text/javascript"></script>
+    <script src="revo-slider/js/extensions/revolution.extension.kenburn.min.js" type="text/javascript"></script>
+    <script src="revo-slider/js/extensions/revolution.extension.layeranimation.min.js" type="text/javascript">
+    </script>
+    <script src="revo-slider/js/extensions/revolution.extension.migration.min.js" type="text/javascript"></script>
+    <script src="revo-slider/js/extensions/revolution.extension.navigation.min.js" type="text/javascript"></script>
+    <script src="revo-slider/js/extensions/revolution.extension.parallax.min.js" type="text/javascript"></script>
+    <script src="revo-slider/js/extensions/revolution.extension.slideanims.min.js" type="text/javascript"></script>
+    <script src="revo-slider/js/extensions/revolution.extension.video.min.js" type="text/javascript"></script>
+
+    <!-- SLIDER REVOLUTION INITIALIZATION  -->
+    <script type="text/javascript">
+      jQuery(document).ready(function() {
+
+        jQuery("#rev_slider_280_1").show().revolution({
+          sliderType: "hero",
+          jsFileLocation: "revo-slider/js/",
+          sliderLayout: "fullscreen",
+          dottedOverlay: "none",
+          delay: 9000,
+          /*navigation: {},*/
+          responsiveLevels: [1240, 1024, 778, 480],
+          visibilityLevels: [1240, 1024, 778, 480],
+          gridwidth: [1240, 1024, 778, 480],
+          gridheight: [868, 768, 960, 720],
+          lazyType: "none",
+          parallax: {
+            type: "off",
+            origo: "slidercenter",
+            speed: 1000,
+            levels: [0],
+            type: "scroll",
+            disable_onmobile: "on"
+          },
+          shadow: 0,
+          spinner: "spinner2",
+          autoHeight: "off",
+          fullScreenAutoWidth: "off",
+          fullScreenAlignForce: "off",
+          fullScreenOffsetContainer: "",
+          fullScreenOffset: "",
+          disableProgressBar: "on",
+          hideThumbsOnMobile: "off",
+          hideSliderAtLimit: 0,
+          hideCaptionAtLimit: 0,
+          hideAllCaptionAtLilmit: 0,
+          debugMode: false,
+          fallbacks: {
+            simplifyAll: "off",
+            disableFocusListener: false,
+          }
+        });
+
+      }); /*ready*/
+    </script>
+<!-- JS end -->
+
+	</body>
 </html>
