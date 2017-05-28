@@ -5960,10 +5960,20 @@ select.input-border {
 .bg-white {background-color:#fff;}
 .bg-aqua{background-color:#5bd3be;}
 .bg-yellow{background-color:#fbf18e;}
-.bg-goldenrod{background-color:#ffcd32;}
-.goldenrod{color:#ffcd32;}
 .bg-red{background-color:#FF271C;}
 .bg-purple{background-color:#676bb8 !important;}
+
+
+/* GOLDENROD STYLES FOR WIESS */
+.bg-goldenrod{background-color:#ffcd32;}
+.goldenrod{color:#ffcd32;}
+.goldenrod-grad {
+    background: #ffcd32; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #ffcd32 , grey); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left, #ffcd32 , grey); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(left, #ffcd32 , grey); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to left, #ffcd32 , grey); /* Standard syntax (must be last) */
+}
 
 .font-white, .font-white a{color:#fff !important;}
 .font-black, .font-black a{color:#323336 !important;}
@@ -8383,7 +8393,7 @@ h6 {
 	top: 55%;
 }
 .heading-underline h1, .heading-underline h2, .heading-underline h3, .heading-underline h4, .heading-underline h5, .heading-underline h6{
-	border-bottom: 1px solid #eee;
+	border-bottom: 1px solid #ffcd32;
 	padding-bottom:20px;
 }
 .heading-underline h2{
