@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<!--
+
+	Theme Name: Elementy
+	Description: HTML/CSS
+	Author: Abcgomel
+	Designed & Coded by Abcgomel
+
+-->
+
+<html>
+ 	<head>
+    <head>
+  		<title>Wiess College | Home</title>
+  		<meta charset=utf-8 >
+      <meta name="description" content="Wiess College at Rice University (TFW) - The Best College at Rice University">
+      <meta name="keywords" content="team, wiess, family, college, best, rice, university, residential, happiest, fun, happy, wiessman, wiessmen, weiss, ubangee, freshman">
+      <meta property="og:title" content="Wiess College at Rice University"/>
+      <meta property="og:site_name" content="Wiess College - TFW"/>
+      <meta property="og:image" content="http://www.teamwiess.com/acapics/family-med.jpg"/>
+  		<meta name="robots" content="index, follow" >
+  		<meta name="author" content="Kunal Shah">
+  		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+      <meta name="theme-color" content="#2a2b2f">
+
+  		<!-- FAVICONS -->
+      <link rel="shortcut icon" href="../images/favicon/favicon.png">
+      <!-- <link rel="apple-touch-icon" href="images/favicon/apple-touch-icon.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-touch-icon-72x72.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-touch-icon-114x114.png">
+      <link rel="icon" sizes="192x192" href="images/favicon/icon-192x192.png"> -->
+  <!-- CSS -->
+      <link href='https://fonts.googleapis.com/css?family=Raleway:400,200' rel='stylesheet' type='text/css'>
+      <link href="../revo-slider/css/settings-custom.css" rel="stylesheet" type="text/css">
+  		<link rel="stylesheet" href="../css/bootstrap.min.css">
+  		<link rel="stylesheet" href="../css/icons-fonts.css" >
+  		<link rel="stylesheet" href="../css/style.css" >
+  		<link rel='stylesheet' href="../css/animate.min.css">
+  <!-- CSS end -->
+  	</head>
+
+
+
+	</head>
+	<body>
+
+		<!-- LOADER -->
+		<div id="loader-overflow">
+      <div id="loader3" class="loader-cont">Please enable JS</div>
+    </div>
+
+		<div id="wrap" class="boxed ">
+			<div class="grey-bg"> <!-- Grey BG  -->
+
+				<!-- HEADER 1 WITOUT MENU FONT BLACK TRANSPARENT -->
+				<header id="nav" class="header header-1">
+				  <div class="header-wrapper">
+            <div class="container-m-30 clearfix">
+              <div class="logo-row">
+
+              <!-- LOGO -->
+              <div class="logo-container-2">
+                  <div class="logo-2">
+                    <a href="index.html" class="clearfix">
+                      <img src="../images/logo.png" class="logo-img" alt="Logo">
+                    </a>
+                  </div>
+                </div>
+
+             </div>
+            </div>
+
+				  </div>
+				  <!-- END header-wrapper -->
+
+				</header>
+
+        <!-- COTENT CONTAINER -->
+        <div class="under-constr-bg" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../acapics/upper.jpg);">
+          <div class="container maintenance-container">
+            <div class="row">
+              <div class="col-md-12 coming-soon-main-text-container font-raleway">
+                <h3 style="color:white">The Masters, Associates, Students and Alumni of Wiess College<br>invite you to SAVE THE DATE for the</h3>
+                <h1><strong style="color:white">Wiess College 60th Anniversary Celebration</strong></h1>
+              </div>
+            </div>
+            <div class="row mb-40">
+              <!-- CLOCK -->
+              <div class="col-md-12">
+              	<div id="clock" class="clearfix" style="text-shadow:1px 1px black;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="footer"></div>
+
+
+			</div><!-- End BG -->
+		</div><!-- End wrap -->
+
+<!-- JS begin -->
+		<script type="text/javascript" src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+		<script src="../js/jquery.magnific-popup.min.js"></script>
+    <script type="text/javascript" src="../js/imagesloaded.pkgd.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.appear.js"></script>
+		<script src="../js/main.js"></script>
+		<script src="../js/twitter/jquery.tweet.js"></script>
+    <script>
+        function initTwitterFeeds(){
+      $("#twitter-feeds").tweet({
+        // join_text: false,
+        username: "abcgomel", // Change username here
+        modpath: './js/twitter/', // Twitter files path
+        avatar_size: false, // you can active avatar
+        count: 1, // number of tweets
+        loading_text: "loading tweets..."
+      });
+    };
+    </script>
+
+    <!-- COUNTDOWN -->
+		<script src="../js/jquery.countdown.min.js"></script>
+    <script>
+      	//COUNTDOWN -----------------------------------------------------------------------------
+				$('#clock').countdown('2017/11/10').on('update.countdown', function(event) {
+				   var $this = $(this).html(event.strftime(''
+					 + '<div class="countdown-item-container3"><span class="countdown-amount">%D</span><span class="countdown-period">Day%!D</span></div>'
+					 + '<div class="countdown-item-container3"><span class="countdown-amount">%H</span><span class="countdown-period">Hour%!H</span></div>'
+					 + '<div class="countdown-item-container3"><span class="countdown-amount">%M</span><span class="countdown-period">Minute%!M</span></div>'
+					 + '<div class="countdown-item-container3"><span class="countdown-amount">%S</span><span class="countdown-period">Second%!S</span></div>'));
+				 });
+    </script>
+    <script>
+      $(function(){
+        $("#header").load("../header.html");
+        $("#footer").load("../footer.html");
+      });
+    </script>
+
+<!-- JS end -->
+
+	</body>
+</html>

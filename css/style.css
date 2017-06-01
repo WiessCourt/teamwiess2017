@@ -5974,6 +5974,10 @@ select.input-border {
     background: -moz-linear-gradient(left, #ffcd32 , grey); /* For Firefox 3.6 to 15 */
     background: linear-gradient(to left, #ffcd32 , grey); /* Standard syntax (must be last) */
 }
+/* Shadow for the circles in people*/
+.circle-shadow {
+  box-shadow:inset 1px 1px 1px 1px rgba(0,0,0,.5);
+}
 
 .font-white, .font-white a{color:#fff !important;}
 .font-black, .font-black a{color:#323336 !important;}
