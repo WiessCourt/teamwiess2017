@@ -1969,7 +1969,7 @@ button{border:none;cursor:pointer;text-decoration:none;transition:all .3s ease 0
 .button.black{font-family:'Open Sans', sans-serif;color:#ffffff;font-style:normal;background-color:#4d4d4d;}
 .button.black:hover{background-color:#575757;}
 a{color:#323336;outline:none !important;text-decoration:none;transition:all .3s ease 0s;}
-a:hover, a:focus{color:#97999c;text-decoration:none;transition:all .3s ease 0s;cursor:pointer;}
+a:hover, a:focus{color:#FFCD32;text-decoration:none;transition:all .3s ease 0s;cursor:pointer;}
 .a-dark{color:#101010;}
 .a-dark:hover{color:#97999c;}
 .a-white{color:#fff;}
