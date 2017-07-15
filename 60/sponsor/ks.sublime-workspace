@@ -1,0 +1,1115 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"font",
+				"font-raleway"
+			],
+			[
+				"fon",
+				"font-raleway"
+			],
+			[
+				"col-",
+				"col-md-8"
+			],
+			[
+				"kunal",
+				"kunalsh22"
+			],
+			[
+				"dev",
+				"dev_appserver.py"
+			],
+			[
+				"webp",
+				"webpack"
+			],
+			[
+				"webpack",
+				"webpack-dev-server"
+			],
+			[
+				"Song",
+				"SongBase"
+			],
+			[
+				"Son",
+				"SongComp"
+			],
+			[
+				"SR",
+				"SRComp"
+			],
+			[
+				"Rel",
+				"RelatedTo"
+			],
+			[
+				"Video",
+				"VideoOF"
+			],
+			[
+				"re",
+				"REFERENCES"
+			],
+			[
+				"mus",
+				"musician_id1"
+			],
+			[
+				"For",
+				"FOREIGN"
+			],
+			[
+				"V",
+				"VARCHAR"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"bo",
+				"border-width"
+			],
+			[
+				"border-col",
+				"border-color"
+			],
+			[
+				"border-",
+				"border-color"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"nam",
+				"nav-menu"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"dif",
+				"diff_written"
+			],
+			[
+				"num_bloc",
+				"num_blocks_left"
+			],
+			[
+				"pa",
+				"partial"
+			],
+			[
+				"di",
+				"difference"
+			],
+			[
+				"Se",
+				"SECTORSIZE"
+			],
+			[
+				"cur",
+				"curr_loc"
+			],
+			[
+				"curr",
+				"curr_pos"
+			],
+			[
+				"stat",
+				"statreply_buf"
+			],
+			[
+				"st",
+				"statbuf"
+			],
+			[
+				"s",
+				"statbuf"
+			],
+			[
+				"star",
+				"stat_reply"
+			],
+			[
+				"path",
+				"pathname"
+			],
+			[
+				"open",
+				"open_file_table"
+			],
+			[
+				"of",
+				"offset"
+			],
+			[
+				"buf",
+				"buf2"
+			],
+			[
+				"get",
+				"get_cache_block"
+			],
+			[
+				"no",
+				"node_p"
+			],
+			[
+				"indi",
+				"indirect_block"
+			],
+			[
+				"block",
+				"blocks"
+			],
+			[
+				"INO",
+				"INODE_FREE"
+			],
+			[
+				"size",
+				"sizeof"
+			],
+			[
+				"set",
+				"set_cache_inode"
+			],
+			[
+				"dir",
+				"dir"
+			],
+			[
+				"inode",
+				"inode_block"
+			],
+			[
+				"cach",
+				"cached_block"
+			],
+			[
+				"ino",
+				"inode_cache"
+			],
+			[
+				"ca",
+				"cached_block"
+			],
+			[
+				"item",
+				"item_number"
+			],
+			[
+				"is",
+				"is_block"
+			],
+			[
+				"cah",
+				"cached_item"
+			],
+			[
+				"c",
+				"cached_item"
+			],
+			[
+				"cha",
+				"cache_p"
+			],
+			[
+				"bl",
+				"block_address"
+			],
+			[
+				"blok",
+				"block_number"
+			],
+			[
+				"num",
+				"num_cached_blocks"
+			],
+			[
+				"da",
+				"database_built"
+			],
+			[
+				"run",
+				"run_func"
+			],
+			[
+				"arg",
+				"argv"
+			],
+			[
+				"com",
+				"competing"
+			],
+			[
+				"hea",
+				"heat_sheet"
+			],
+			[
+				"sch",
+				"schema_list"
+			],
+			[
+				"len",
+				"len_data"
+			],
+			[
+				"qu",
+				"query_db"
+			],
+			[
+				"data",
+				"data_list"
+			],
+			[
+				"nod",
+				"nodes_per_block"
+			],
+			[
+				"fre",
+				"free_block_bitmap"
+			],
+			[
+				"fs",
+				"fs_header"
+			],
+			[
+				"a",
+				"argc"
+			],
+			[
+				"ar",
+				"argv"
+			],
+			[
+				"ser",
+				"service_id"
+			],
+			[
+				"user",
+				"user_pid"
+			],
+			[
+				"pt_b",
+				"pt_buf"
+			],
+			[
+				"kern",
+				"kernel_pt"
+			],
+			[
+				"file",
+				"filename"
+			],
+			[
+				"Load",
+				"LoadProgram"
+			],
+			[
+				"next",
+				"next_pid"
+			],
+			[
+				"N",
+				"NUM_PROCESSES"
+			],
+			[
+				"page",
+				"page_table_buf"
+			],
+			[
+				"nex",
+				"next_pid"
+			],
+			[
+				"build",
+				"build_user_pagetable"
+			],
+			[
+				"PAGE",
+				"PAGESIZE"
+			],
+			[
+				"cl",
+				"clock"
+			],
+			[
+				"clock",
+				"clock_ticks"
+			],
+			[
+				"pid",
+				"pid_t"
+			],
+			[
+				"k",
+				"k_vals"
+			],
+			[
+				"dis",
+				"disparity"
+			],
+			[
+				"sn",
+				"snip_l"
+			],
+			[
+				"snip",
+				"snip_l"
+			],
+			[
+				"righ",
+				"right_im"
+			],
+			[
+				"most",
+				"most_sim_disp"
+			],
+			[
+				"sni",
+				"snip_r"
+			],
+			[
+				"Tra",
+				"TracePrintf"
+			],
+			[
+				"ori",
+				"orig_brk_global"
+			],
+			[
+				"Tr",
+				"Traceprintf"
+			],
+			[
+				"table",
+				"table_number"
+			],
+			[
+				"d",
+				"d"
+			],
+			[
+				"ker",
+				"kernel_break"
+			],
+			[
+				"VM",
+				"VMEM_1_BASE"
+			],
+			[
+				"Vm",
+				"VMEM_1_LIMIT"
+			],
+			[
+				"PAge",
+				"PAGE_TABLE_LEN"
+			],
+			[
+				"Kernel",
+				"KernelStart"
+			],
+			[
+				"in",
+				"interrupt_table"
+			],
+			[
+				"init",
+				"init_ivt"
+			],
+			[
+				"pag",
+				"page_directory"
+			],
+			[
+				"PA",
+				"PAGESIZE"
+			],
+			[
+				"Kern",
+				"KernelStart"
+			],
+			[
+				"pte",
+				"pte_var"
+			],
+			[
+				"trap",
+				"trap_tty_receive"
+			],
+			[
+				"tral",
+				"trap_illegal"
+			],
+			[
+				"print",
+				"printf\tprintf …"
+			],
+			[
+				"curre",
+				"currently_cond"
+			],
+			[
+				"curren",
+				"currently_writing"
+			],
+			[
+				"writing",
+				"writing_buf"
+			],
+			[
+				"input",
+				"input"
+			],
+			[
+				"out",
+				"output"
+			],
+			[
+				"stats",
+				"stats_buffer"
+			],
+			[
+				"make",
+				"makeStat"
+			],
+			[
+				"new",
+				"newline_cond"
+			],
+			[
+				"Con",
+				"CondWait"
+			],
+			[
+				"Write",
+				"WriteData"
+			],
+			[
+				"wr",
+				"writing_term_cond"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 398.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"brow",
+				"View In Browser"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"project",
+				"Project: Save As"
+			],
+			[
+				"proje",
+				"Project: Refresh Folders"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"synta",
+				"Set Syntax: HTML"
+			],
+			[
+				"book",
+				"Bookmarks: Toggle"
+			],
+			[
+				"syn",
+				"Set Syntax: MATLAB"
+			],
+			[
+				"",
+				"Permute Lines: Shuffle"
+			]
+		],
+		"width": 599.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"Package Control: Install Package",
+			"Package Control",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/www/sites/ks"
+	],
+	"file_history":
+	[
+		"/Users/Kunal/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+		"/www/sites/ks/assets/css/style.css",
+		"/www/sites/ks/footer.html",
+		"/www/sites/ks/css/old-styles.css",
+		"/www/sites/ks/css/style.css",
+		"/www/websites/teamwiess2017/people.html",
+		"/www/websites/teamwiess2017/newstudents.html",
+		"/www/sites/learnwebdev/README.md",
+		"/www/sites/learnwebdev/source/index.md",
+		"/www/projects/python-docs-sample/appengine/standard/firebase/firenotes/backend/main.py",
+		"/www/projects/python-docs-sample/appengine/standard/firebase/firenotes/frontend/style.css",
+		"/www/projects/python-docs-sample/appengine/standard/firebase/firenotes/backend/app.yaml",
+		"/www/projects/python-docs-sample/appengine/standard/firebase/firenotes/frontend/app.yaml",
+		"/www/projects/python-docs-sample/appengine/standard/firebase/firenotes/frontend/templates/hello.html",
+		"/Users/Kunal/.bash_profile",
+		"/www/projects/codekitexample/source/index.md",
+		"/www/projects/codekitexample/source/index.html",
+		"/www/projects/codekitexample/source/styles/style.scss",
+		"/www/projects/codekitexample/build/index.html",
+		"/www/projects/bourbonblog/config.ru",
+		"/www/projects/bourbonblog/Rakefile",
+		"/www/projects/bourbonblog/config.rb",
+		"/www/projects/bourbonblog/Gemfile.lock",
+		"/www/projects/bourbonblog/source/stylesheets/partials/_footer.scss",
+		"/www/projects/bourbonblog/source/stylesheets/partials/_nav.scss",
+		"/www/projects/bourbonblog/source/stylesheets/base/_grid-settings.scss",
+		"/www/projects/bourbonblog/source/stylesheets/base/_variables.scss",
+		"/www/projects/bourbonblog/source/index.html.erb",
+		"/www/projects/bourbonblog/source/partials/_footer.erb",
+		"/www/projects/bourbonblog/source/partials/_nav.erb",
+		"/www/projects/bourbonblog/source/stylesheets/all.css.scss",
+		"/www/projects/bourbonblog/source/layout.erb",
+		"/www/projects/bourbonblog/source/stylesheets/base/_base.scss",
+		"/www/projects/bourbonblog/source/stylesheets/partials/_layout.scss",
+		"/www/projects/bourbonblog/Gemfile",
+		"/www/projects/bourbonblog/source/2012-01-01-example-article.html.markdown",
+		"/www/sites/joomla/configuration.php",
+		"/www/sites/saasdevdemo/README.md",
+		"/www/sites/saasdevdemo/assets/css/scss/thesaas.scss",
+		"/www/sites/saasdevdemo/assets/css/style.css",
+		"/www/sites/saasdevdemo/index.html",
+		"/Users/Kunal/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/Kunal/websites/simplenote.com/index.html",
+		"/Users/Kunal/.profile",
+		"/Users/Kunal/Desktop/index.html",
+		"/Users/Kunal/Desktop/styles.css",
+		"/www/sites/kunalshah/315C7418F179E56349F4AA1E0693E3BE.txt",
+		"/Users/Kunal/WebApps/pelican-blog/attila/static/css/style.css",
+		"/www/home/theme/css/style.css",
+		"/www/sites/kunalshah/footer.html",
+		"/www/sites/kunalshah/index.html",
+		"/www/sites/bucket-list/mysql_commands.sql",
+		"/www/sites/bucket-list/connect-mysql.py",
+		"/Users/Kunal/bash_profile",
+		"/Users/Kunal/www/home/wwwroot/index.html",
+		"/private/etc/apache2/httpd.conf",
+		"/private/etc/apache2/extra/httpd-vhosts.conf",
+		"/www/sites/teamwiess/.htaccess",
+		"/Users/Kunal/.bbash_",
+		"/Users/Kunal/Desktop/toggles.html",
+		"/Users/Kunal/websites/teamwiess2017/.gitignore",
+		"/Users/Kunal/websites/public_html/ks/README.md",
+		"/Users/Kunal/websites/ks/index.html",
+		"/Users/Kunal/websites/urbanewebsolutions/index.html",
+		"/Users/Kunal/websites/wiessoweek/index.html",
+		"/Users/Kunal/websites/polo-responsive-multipurpose-html5-template/index.html",
+		"/Users/Kunal/websites/polo-responsive-multipurpose-html5-template/home-developer.html",
+		"/Users/Kunal/websites/wiessoweek/README.md",
+		"/Users/Kunal/websites/kunalshah.me/teamwiess/index.html",
+		"/Users/Kunal/websites/kunalshah.me/style.css",
+		"/Users/Kunal/websites/kunalshah.me/photowall/index.html",
+		"/Users/Kunal/websites/kunalshah.me/index.html",
+		"/Users/Kunal/Downloads/kt_freebie_onepage_1/readme.txt",
+		"/Users/Kunal/Downloads/kt_freebie_onepage_1/license.txt",
+		"/Users/Kunal/Downloads/kt_freebie_onepage_1.rar",
+		"/Users/Kunal/websites/TeamWiess/calendar.html",
+		"/Users/Kunal/Documents/Courses/databases/notebooks/databases notebooks/Assignment 6/schemas_533.sql",
+		"/Users/Kunal/websites/mcsite/index.html",
+		"/Users/Kunal/websites/TeamWiess/beta/im1.jpg",
+		"/Users/Kunal/websites/TeamWiess/js/nav.js",
+		"/Users/Kunal/websites/parallax/index2.html",
+		"/Users/Kunal/websites/TeamWiess/css/main.css",
+		"/Users/Kunal/websites/TeamWiess/css/nav.css",
+		"/Users/Kunal/websites/TeamWiess/index.html",
+		"/Users/Kunal/websites/parallax/index.html",
+		"/Users/Kunal/websites/TeamWiess/resources.html",
+		"/Users/Kunal/Downloads/git-ftp-git-ftp-2e2d2f9/INSTALL.md",
+		"/Users/Kunal/websites/allpressespresso/allpressespresso.com/index.html",
+		"/Users/Kunal/websites/something.css",
+		"/Users/Kunal/websites/xbsoftware/xbsoftware.com/index.html",
+		"/Users/Kunal/websites/xbsoftware/xbsoftware.com/GET.html",
+		"/Users/Kunal/websites/xbsoftware/xbsoftware.com/products/index.html",
+		"/Users/Kunal/websites/xbsoftware/index.html",
+		"/Users/Kunal/websites/TeamWiess/ftp",
+		"/Users/Kunal/websites/TeamWiess/.gitignore",
+		"/Users/Kunal/websites/TeamWiess/ateam.html",
+		"/Users/Kunal/websites/mcsite/.gitignore",
+		"/Volumes/ks45/comp421/file_system/include/yalnix.h",
+		"/Volumes/ks45/comp421/file_system/include/iolib.h",
+		"/Volumes/ks45/comp421/file_system/cache.c",
+		"/Volumes/ks45/comp421/file_system/cache.h",
+		"/Volumes/ks45/comp421/file_system/data.h",
+		"/Volumes/ks45/comp421/file_system/data.c",
+		"/Volumes/ks45/comp421/file_system/include/loadinfo.h",
+		"/Volumes/ks45/comp421/file_system/output",
+		"/Volumes/ks45/comp421/file_system/.gitignore",
+		"/Volumes/ks45/comp421/file_system/run",
+		"/Volumes/ks45/comp421/file_system/cache_test.c",
+		"/Volumes/ks45/comp421/file_system/iolib.c",
+		"/Volumes/ks45/comp421/file_system/cache2.c",
+		"/Users/Kunal/Documents/Courses/databases/notebooks/databases notebooks/Assignment 6/PythonApp/templates/signup.html",
+		"/Users/Kunal/Documents/Courses/databases/notebooks/databases notebooks/Assignment 6/parse_csv.py",
+		"/Users/Kunal/Documents/Courses/databases/notebooks/databases notebooks/Assignment 6/PythonApp/app.py",
+		"/Users/Kunal/Documents/Courses/databases/notebooks/databases notebooks/Assignment 6/PythonApp/templates/index.html",
+		"/Users/Kunal/Documents/Courses/databases/notebooks/databases notebooks/Assignment 6/assignment6_queries.sql",
+		"/Users/Kunal/Documents/Courses/databases/notebooks/databases notebooks/Assignment 6/Assignment6_Data_from_ERD.csv",
+		"/Users/Kunal/Documents/Courses/databases/notebooks/databases notebooks/Assignment 6/run_func.py",
+		"/Users/Kunal/Documents/Courses/databases/notebooks/databases notebooks/Assignment 6/PythonApp/static/js/signUp.js",
+		"/Users/Kunal/Documents/Courses/databases/notebooks/databases notebooks/Assignment 6/sample.py",
+		"/Users/Kunal/Documents/Courses/databases/notebooks/databases notebooks/Assignment 6/assignment6.sql",
+		"/Users/Kunal/Documents/Courses/databases/notebooks/databases notebooks/Assignment 6/Assignment6_Data_from_ERD_430.csv",
+		"/Users/Kunal/Documents/Courses/databases/notebooks/databases notebooks/Assignment 6/data.csv",
+		"/Users/Kunal/Documents/Courses/databases/notebooks/databases notebooks/Assignment 6/data.py",
+		"/Volumes/ks45/comp421/file_system/yfs.c",
+		"/Volumes/ks45/comp421/file_system/filesystem.h",
+		"/Volumes/ks45/comp421/file_system/server.c",
+		"/Users/Kunal/Documents/Programs/webdev/new Wiess cover website/index.html",
+		"/Users/Kunal/Documents/Programs/webdev/jacks_test/test copy.html"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/www/sites/saasdevdemo/assets/css/scss",
+			".",
+			"/Users/Kunal/Documents/Programs/webdev/new Wiess cover website",
+			".",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"how to become",
+			"fonts",
+			"awesome",
+			"snap",
+			"h6",
+			"font-family:",
+			"Popp",
+			"popp",
+			"text-center",
+			"text-cen",
+			"p>",
+			"raleway",
+			"p {",
+			"raleway",
+			"title",
+			"header",
+			"logo.png",
+			"revo-sl",
+			"footer",
+			"revo",
+			"images",
+			"Home",
+			"back",
+			"home",
+			"id=",
+			"nav",
+			"govern",
+			"async",
+			"people",
+			"people.html",
+			"\"js",
+			"\"css",
+			"60th",
+			"margare",
+			"anson",
+			"/reps/",
+			"\"js",
+			"\"css",
+			"theme",
+			"revolution",
+			"async ",
+			"shay",
+			"LoremIpsumissimplydummytextoftheprintingandtypesettingindustry.LoremIpsumhasbeentheindustry'sstandarddummytexteversincethe1500s,whenanunknownprintertookagalleyoftypeandscrambledittomakeatypespecimenbook.Ithassurvivednotonlyfivecenturies,butalsotheleapintoelectronictypesetting,remainingessentiallyunchanged.Itwaspopularisedinthe1960swiththereleaseofLetrasetsheetscontainingLoremIpsumpassages,andmorerecentlywithdesktoppublishingsoftwarelikeAldusPageMakerincludingversionsofLoremIpsum.",
+			" LoremIpsumissimplydummytextoftheprintingandtypesettingindustry.LoremIpsumhasbeentheindustry'sstandarddummytexteversincethe1500s,whenanunknownprintertookagalleyoftypeandscrambledittomakeatypespecimenbook.Ithassurvivednotonlyfivecenturies,butalsotheleapintoelectronictypesetting,remainingessentiallyunchanged.Itwaspopularisedinthe1960swiththereleaseofLetrasetsheetscontainingLoremIpsumpassages,andmorerecentlywithdesktoppublishingsoftwarelikeAldusPageMakerincludingversionsofLoremIpsum.",
+			" ",
+			"/'",
+			"button",
+			"/notes",
+			"fetchNotes",
+			"set",
+			"btn-white",
+			"button",
+			"facebook",
+			"DocumentRoot",
+			"<Director",
+			"Director",
+			"Upgrade",
+			"Dev",
+			"solutions",
+			"elementy",
+			"favicon",
+			"Contact",
+			".com",
+			"Developmen",
+			"Develpmen",
+			"href",
+			"fes",
+			"images",
+			"logo.png",
+			"images",
+			"solutions",
+			"css",
+			"arrow",
+			"images",
+			"(class=\"team__image\"><img src=)\".+?\"",
+			"(class=\"team__image\"><img src=)\".+\"",
+			"css",
+			"w3",
+			"/w3images/",
+			"row",
+			"/w3images/",
+			"60/",
+			"60",
+			"assets/js",
+			"banner",
+			"welcome_wiess.jpg",
+			"welcome",
+			"www",
+			"/w3images",
+			"mb_YTPlayer",
+			"script",
+			"YTPlayer",
+			"player",
+			"open_file",
+			"Reply",
+			"stat",
+			"stat_reply",
+			";\n",
+			"Open",
+			"root",
+			"copy",
+			"copyto",
+			"nlink",
+			"stat(",
+			"stat",
+			"pathname",
+			"type",
+			"INODE",
+			"buf2",
+			"ReadSector",
+			"readsector",
+			"block()",
+			"set_inode",
+			"set_inode_block",
+			"set",
+			"traverse_dir",
+			"block",
+			"cache[i]",
+			"block",
+			"item",
+			"block",
+			"num_cached_items",
+			"cached_block",
+			"Name",
+			"showHome",
+			"DROP",
+			">",
+			"Salazar"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\"../js",
+			"\"../css",
+			"/",
+			"\"../js",
+			"\"../css",
+			"",
+			"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+			"",
+			"\\1\"http://teamwiess.com/profiles/kunal.jpg\"",
+			"https://www.w3schools.com/w3images/",
+			"/Users/Kunal/websites/mcsite/assets/js",
+			"img",
+			"struct stat_reply",
+			"inode",
+			"(&cache)[i]",
+			"cache[i]",
+			"item",
+			"block/inode",
+			"num_cached_blocks",
+			"cached_item",
+			"TRUNCATE",
+			"pt",
+			"kernel_pt",
+			"pt",
+			"page_table_buf[next_pid]",
+			"sleep(1",
+			"BUFFER_SIZE",
+			"TracePrintf(0, ",
+			"page_table1",
+			"ExceptionInfo*",
+			"int",
+			"return",
+			"void",
+			"ExceptionStackFrame* exception",
+			"void",
+			"stats_bufer",
+			"queue",
+			"finish_wt_cond",
+			"WriteData",
+			"->",
+			"output->",
+			"echo->",
+			"queue->",
+			".",
+			"echo->count",
+			"echo->out",
+			"echo->in",
+			"echo->buffer",
+			"writing",
+			"idx_in_echo",
+			"devicedriver",
+			"",
+			".\\1",
+			"",
+			"\\n",
+			"",
+			"\\n \\1 \\2 \\3 \\4 \\5 \\n\\n",
+			"",
+			"R: ",
+			"\\n",
+			"",
+			"\\n CRN: \\1 SUBJ: \\2 INSTRUCTOR: \\3 CREDITS: \\4 \\n\\n\\n",
+			"\\n CRN: \\1 SUBJ: \\2 INSTRUCTOR: \\3 CREDITS: \\4",
+			"\"\\1\", ",
+			">>> Question",
+			"\\1, \\2",
+			"\\n",
+			"",
+			"limit\\1",
+			"limit",
+			"",
+			"\\n",
+			"",
+			"\\n",
+			"",
+			"Url",
+			"",
+			"print \\1",
+			"\\n",
+			"",
+			"list",
+			"\\[\\1\\]\\2 IDENTIFIERS\\[\\1\\]\\)",
+			" '\\1: replacethistext',",
+			",",
+			"'\\1' : \\2",
+			"",
+			"\\n",
+			" :",
+			"",
+			"'",
+			"rio"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 235.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "ks.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"cache",
+				"cache.c"
+			],
+			[
+				"entrypoint",
+				"venv/lib/python2.7/site-packages/pip-8.1.2.dist-info/entry_points.txt"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 225.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
