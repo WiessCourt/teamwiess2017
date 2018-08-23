@@ -1,11 +1,11 @@
-assets/
+# assets/
 .idea
 ftp
 revo-slider/
 profiles/
 php/
-images/
+# images/
 deprecated/
-acapics/
+# acapics/
 res/
 newstudents/*.mp4
